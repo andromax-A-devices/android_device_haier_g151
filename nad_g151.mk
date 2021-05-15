@@ -16,7 +16,8 @@
 $(call inherit-product, device/haier/g151/full_g151.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_mini_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+NAD_BUILD_TYPE := Predator-Edition
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8909
@@ -24,7 +25,7 @@ TARGET_BOARD_PLATFORM_VARIANT := msm8909
 # Assert
 TARGET_OTA_ASSERT_DEVICE := A16C3H, g151
 
-PRODUCT_NAME := lineage_g151
+PRODUCT_NAME := nad_g151
 BOARD_VENDOR := haier
 PRODUCT_DEVICE := g151
 

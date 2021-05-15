@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_g151.mk
+    $(LOCAL_DIR)/nad_g151.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_g151-user \
-    lineage_g151-userdebug \
-    lineage_g151-eng
+    nad_g151-user \
+    nad_g151-userdebug \
+    nad_g151-eng
